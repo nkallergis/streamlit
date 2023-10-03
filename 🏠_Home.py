@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import time
 
 radio = st.sidebar.radio("Choose: ",[1,2])
 slider = st.slider("Sliiiiide", 0, 10)
