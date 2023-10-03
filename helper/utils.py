@@ -6,12 +6,20 @@ def load_sidebar():
         [
             Page("home.py", "/home/nkallergis"),
             Section("/home/nkallergis/bio"),
-            Page("pages/bio/about.py", "./about"),
-            Page("pages/bio/projects.py", "./projects"),
-            Page("pages/bio/experience.py", "./experience"),
-            Page("pages/bio/education.py", "./education"),
+            Page("pages/bio/about.py", "About"),
+            Page("pages/bio/projects.py", "Projects"),
+            Page("pages/bio/experience.py", "Experience"),
+            Page("pages/bio/education.py", "Education"),
             Section("/home/nkallergis/blog"),
-            Page("pages/blog/20231003.py", "./20231003"),
+            Page("pages/blog/20231003.py", "Initial commit"),
+            Section("/home/nkallergis/notes"),
+            Page("pages/notes/ios_cli_accounting.py", "Cisco IOS - CLI accounting"),
+            Page("pages/notes/django_verbose_name_plural.py", "Django - Verbose name plural"),
+            Page("pages/notes/git_init_repo.py", "Git - Init repo"),
+            Page("pages/notes/nautobot_secrets.py", "Nautobot - Retrieve Secrets"),
+            Page("pages/notes/ping_mtud.py", "Ping MTUD"),
+            Page("pages/notes/powershell_dns_per_domain.py", "Powershell - DNS per domain"),
+            Page("pages/notes/powershell_wsl2_port_forward.py", "Powershell - Port forward for WSL2"),
         ]
     )
     add_page_title()
